@@ -4,6 +4,7 @@ accelerator:
   iconUrl: https://raw.githubusercontent.com/TanzuDK/python-accelerator/main/images/python.png
   tags: 
   - python
+
   options:
   - name: deploymentType
     inputType: select
@@ -14,6 +15,14 @@ accelerator:
       text: Kubernetes deployment and service
     defaultValue: workload
     required: true
+
 engine:
   include:
   - '**'
+  - include: [ "kubernetes/tap/workload.yaml" ]
+    condition: "#deploymentType == 'workload'"
+    chain:
+    - type: ReplaceText
+      substitutions:
+      - text: ": python-deployment"
+        with: "': ' + #artifactId.toLowerCase()"
