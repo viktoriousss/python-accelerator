@@ -2,7 +2,7 @@ accelerator:
   displayName: python-accelerator
   description: Python Accelerator
   iconUrl: https://raw.githubusercontent.com/TanzuDK/python-accelerator/main/images/python.png
-  tags: 
+  tags:
   - python
 
   options:
@@ -18,8 +18,7 @@ accelerator:
 
 engine:
   merge:
-    include:
-    - [ "**" ]
+    - include: [ "**" ]
     - include: [ "kubernetes/tap/workload.yaml" ]
       condition: "#deploymentType == 'workload'"
       chain:
