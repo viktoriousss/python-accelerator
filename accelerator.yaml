@@ -1,7 +1,7 @@
 accelerator:
   displayName: python-accelerator
   description: Python Accelerator
-  iconUrl: https://github.com/TanzuDK/python-accelerator/blob/main/images/python.png
+  iconUrl: https://raw.githubusercontent.com/TanzuDK/python-accelerator/main/images/python.png
   tags: 
   - python
   options:
