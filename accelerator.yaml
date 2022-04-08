@@ -17,12 +17,13 @@ accelerator:
     required: true
 
 engine:
-  include:
-  - '**'
-  - include: [ "kubernetes/tap/workload.yaml" ]
-    condition: "#deploymentType == 'workload'"
-    chain:
-    - type: ReplaceText
-      substitutions:
-      - text: ": python-deployment"
-        with: "': ' + #artifactId.toLowerCase()"
+  merge:
+    include:
+    - [ "**" ]
+    - include: [ "kubernetes/tap/workload.yaml" ]
+      condition: "#deploymentType == 'workload'"
+      chain:
+      - type: ReplaceText
+        substitutions:
+        - text: ": python-deployment"
+          with: "': ' + #artifactId.toLowerCase()"
