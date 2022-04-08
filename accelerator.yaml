@@ -5,10 +5,15 @@ accelerator:
   tags: 
   - python
   options:
-  - name: optionName
-    label: Nice Label
-    display: true
-    defaultValue: ""
+  - name: deploymentType
+    inputType: select
+    choices:
+    - value: workload
+      text: TAP workload
+    - value: k8s-simple
+      text: Kubernetes deployment and service
+    defaultValue: workload
+    required: true
 engine:
   include:
   - '**'
