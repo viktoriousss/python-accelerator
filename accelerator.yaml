@@ -2,7 +2,8 @@ accelerator:
   displayName: python-accelerator
   description: Python Accelerator
   iconUrl: https://github.com/TanzuDK/python-accelerator/blob/main/images/python.png
-  tags: []
+  tags: 
+  - python
   options:
   - name: optionName
     label: Nice Label
