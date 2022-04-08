@@ -2,7 +2,7 @@ accelerator:
   displayName: python-accelerator
   description: Python Accelerator
   iconUrl: https://raw.githubusercontent.com/simple-starters/icons/master/icon-tanzu-light.png
-  tags: []
+  tags: [python]
   options:
   - name: optionName
     label: Nice Label
