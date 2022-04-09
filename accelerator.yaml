@@ -18,9 +18,6 @@ accelerator:
 
 
 engine:
-  merge:
-    - include: [ "**" ]
-      exclude: [ "*.py"]
   type: YTT
 
 
