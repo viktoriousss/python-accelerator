@@ -20,11 +20,7 @@ accelerator:
     description: A sample option used to generate YAML.
     defaultValue: Hello
     display: true
-  - name: deploymentname
-    label: deploymentname
-    description: Deploymentname
-    defaultValue: "#artifactId.toLowerCase()"
-    display: false
+
 
 engine:
   type: YTT
