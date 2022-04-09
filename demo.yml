@@ -3,3 +3,4 @@
 app:
   message: #@ data.values.greeting
   mesnamesage: #@ data.values.deploymentname
+  projectname: #@ projectName
