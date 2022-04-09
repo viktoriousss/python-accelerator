@@ -18,6 +18,8 @@ accelerator:
 
 
 engine:
+  exclude:
+    ["*.py"]
   type: YTT
 
 
