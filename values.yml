@@ -1,5 +1,4 @@
 #@data/values
 ---
-greeting: Default Greeting
 deploymentType: demo
 deploymentname: python-accelerator

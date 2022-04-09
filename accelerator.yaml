@@ -15,11 +15,6 @@ accelerator:
       text: Kubernetes deployment and service
     defaultValue: workload
     required: true
-  - name: greeting
-    label: Greeting
-    description: A sample option used to generate YAML.
-    defaultValue: Hello
-    display: true
 
 
 engine:
