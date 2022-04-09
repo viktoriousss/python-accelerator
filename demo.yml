@@ -1,0 +1,4 @@
+#@ load("@ytt:data", "data")
+
+app:
+  message: #@ data.values.greeting

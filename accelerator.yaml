@@ -15,14 +15,11 @@ accelerator:
       text: Kubernetes deployment and service
     defaultValue: workload
     required: true
+  - name: greeting
+    label: Greeting
+    description: A sample option used to generate YAML.
+    defaultValue: Hello
+    display: true
 
 engine:
-  merge:
-    - include: [ "**" ]
-    - include: [ "kubernetes/tap/workload.yaml" ]
-      condition: "#deploymentType == 'workload'"
-      chain:
-      - type: ReplaceText
-        substitutions:
-        - text: ": python-deployment"
-          with: "': ' + #artifactId.toLowerCase()"
+  type: YTT
