@@ -19,6 +19,7 @@ accelerator:
 
 engine:
   merge:
-  - include: ["**/*.md", "**/*.txt", "**/*.py", "**/*.*"]
-    type: YTT
+    - type: YTT
+    - include:
+        - app.py
   
