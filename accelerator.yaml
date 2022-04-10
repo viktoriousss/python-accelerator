@@ -18,6 +18,8 @@ accelerator:
 
 
 engine:
+  include:
+    ["**/*.md", "**/*.txt", "**/*.py", "**/*.*"]
   type: YTT
 
 
