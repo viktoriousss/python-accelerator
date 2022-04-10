@@ -21,6 +21,6 @@ engine:
   merge:
     - type: YTT
     - include:
-        - "*.py"
+        - "**/*.py"
         - requirements.txt
   
