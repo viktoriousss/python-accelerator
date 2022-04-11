@@ -1,4 +1,0 @@
-#@ load("@ytt:data", "data")
-
-app:
-  projectname: #@ data.values.projectName
