@@ -2,3 +2,4 @@
 ---
 deploymentType: demo
 deploymentname: python-accelerator
+description: "A python app, based on the Streamlit web framework"

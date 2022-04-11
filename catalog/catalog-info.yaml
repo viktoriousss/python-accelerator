@@ -1,0 +1,15 @@
+#@ load("@ytt:data", "data")
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: #@ data.values.projectName
+  description: #@ data.values.description
+  tags:
+    - python
+    - Streamlit
+  annotations:
+    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=python-accelerator'
+spec:
+  type: service
+  lifecycle: experimental
+  owner: default-team
