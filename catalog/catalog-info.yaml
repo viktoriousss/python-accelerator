@@ -6,9 +6,9 @@ metadata:
   description: #@ data.values.description
   tags:
     - python
-    - Streamlit
+    - streamlit
   annotations:
-    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=python-accelerator'
+    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=python-test'
 spec:
   type: service
   lifecycle: experimental
