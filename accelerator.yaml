@@ -15,16 +15,6 @@ accelerator:
       text: Kubernetes deployment and service
     defaultValue: workload
     required: true
-  - name: giturl
-    inputType: text
-    label: Git Repository
-    description: The target git repository, where the code will be stored
-    defaultValue: https://github.com/TanzuDK/python-accelerator.git
-  - name: gitbranch
-    inputType: text
-    label: Git Repository branch
-    description: The target git repositorys branch, where the code will be stored
-    defaultValue: main
   - name: minscale
     inputType: select
     label: Minimum scaledown
@@ -38,6 +28,17 @@ accelerator:
     dependsOn:
       name: deploymentType
       value: workload
+  - name: giturl
+    inputType: text
+    label: Git Repository
+    description: The target git repository, where the code will be stored
+    defaultValue: https://github.com/TanzuDK/python-accelerator.git
+  - name: gitbranch
+    inputType: text
+    label: Git Repository branch
+    description: The target git repositorys branch, where the code will be stored
+    defaultValue: main
+  
 
 
 
