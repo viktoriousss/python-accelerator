@@ -23,4 +23,5 @@ engine:
     - include:
         - "**/*.py"
         - "**/*.txt"
+        - Procfile
   
