@@ -35,6 +35,9 @@ accelerator:
     - value: "0"
       text: 0 Pod
     defaultValue: "1"
+    dependsOn:
+      name: deploymentType
+      value: workload
 
 
 
