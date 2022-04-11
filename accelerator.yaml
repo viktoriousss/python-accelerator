@@ -34,6 +34,7 @@ accelerator:
       text: 1 Pod
     - value: "0"
       text: 0 Pod
+    defaultValue: "1"
 
 
 
