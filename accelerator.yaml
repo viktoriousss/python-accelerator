@@ -48,5 +48,3 @@ engine:
         - "**/*.sh"
         - "Procfile"
         - ".gitignore"
-
-  
