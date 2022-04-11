@@ -25,6 +25,11 @@ accelerator:
     label: Git Repository branch
     description: The target git repositorys branch, where the code will be stored
     defaultValue: main
+  - name: minscale
+    inputType: text
+    label: Minimum scaledown
+    description: The minimum pods to scale to
+    defaultValue: 1
 
 
 
