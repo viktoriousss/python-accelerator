@@ -23,6 +23,7 @@ engine:
     - include:
         - "**/*.py"
         - "**/*.txt"
+        - "**/*.sh"
         - "Procfile"
 
   
