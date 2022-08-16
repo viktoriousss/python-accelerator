@@ -32,7 +32,7 @@ accelerator:
     inputType: text
     label: Git Repository
     description: The target git repository, where the code will be stored
-    defaultValue: https://github.com/TanzuDK/python-accelerator.git
+    defaultValue: https://github.com/viktoriousss/python-accelerator.git
   - name: gitbranch
     inputType: text
     label: Git Repository branch
