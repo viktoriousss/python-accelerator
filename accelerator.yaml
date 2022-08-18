@@ -38,11 +38,6 @@ accelerator:
     label: Git Repository branch
     description: The target git repositorys branch, where the code will be stored
     defaultValue: main
-  
-
-
-
-
 engine:
   merge:
     - type: YTT
