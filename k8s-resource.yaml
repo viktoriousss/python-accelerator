@@ -5,6 +5,6 @@ metadata:
   namespace: accelerator-system 
 spec:
   git:
-    url: https://github.com/TanzuDK/python-accelerator.git
+    url: #@ data.values.giturl
     ref:
       branch: main
