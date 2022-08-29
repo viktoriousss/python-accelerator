@@ -1,10 +1,10 @@
 accelerator:
-  displayName: python-accelerator
-  description: Python Accelerator
-  iconUrl: https://raw.githubusercontent.com/TanzuDK/python-accelerator/main/images/python.png
+  displayName: Python Accelerator
+  description: Demo Python Accelerator
+  iconUrl: https://raw.githubusercontent.com/viktoriousss/python-accelerator/main/images/python.png
   tags:
   - python
-
+  - streamlit
   options:
   - name: deploymentType
     inputType: select
